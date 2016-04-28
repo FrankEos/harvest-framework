@@ -24,7 +24,7 @@ rm -rf bin
 mkdir -p bin/classes
 
 # gen classes
-javac -classpath $libs $src -d bin/classes/
+javac -g -classpath $libs $src -d bin/classes/
 
 # pack to jar
 cd bin/classes/
